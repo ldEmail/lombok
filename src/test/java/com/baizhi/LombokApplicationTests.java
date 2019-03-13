@@ -19,6 +19,7 @@ public class LombokApplicationTests {
     public void contextLoads() {
         Admin admin = adminMapper.selectByPrimaryKey("1");
         System.out.println(admin);
+        System.out.println("456");
     }
 
 }
